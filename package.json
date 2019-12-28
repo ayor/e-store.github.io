@@ -1,0 +1,55 @@
+{
+  "name": "video-rental",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "ayor <39896394+ayor@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/mongodb": "^3.3.6",
+    "animate.css": "^3.7.2",
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.11",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "jquery": "^3.4.1",
+    "json-server": "^0.15.1",
+    "mongodb": "^3.3.3",
+    "popper.js": "^1.16.0",
+    "vue": "^2.6.11",
+    "vue-loader": "^14.2.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "serviceworker-webpack-plugin": "^1.0.0-alpha02",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.3"
+  }
+}
